@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        
+            font-family: Arial;
+            background: #d2ecf2;
+            padding: 30px;
+        }
+
+        header {
+            background: rgba(199, 135, 228, 0.6);
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+.section {
+            background: rgba(245, 228, 253, 0.85);
+            margin: 30px auto;
+            padding: 20px;
+            width: 85%;
+            border-radius: 10px;
+        }
+</style><section id="contact">
+    <center><h2>Contact Us</h2></center>
+
+    
+    <Form onsubmit="return validateForm()" method="post">
+</head>
+<body>
+    <script src="script.js"></script>
+    <div>
+<img src="C:\Users\LAB103\Downloads\login-bg.svg">
+</div>
+
+
+<h1>Contact </h1>
+<label for="username">First Name:</label><br>
+<input type="text" id="username" Name="username" ><br><br>
+<label for ="username"> Last Name:</Label><br>
+<input type="text" id="username" name="username"><br><br>
+ 
+        
+<label for="email address">Email:</Label></br>
+<input type="text" id="email" Name="email"></br><br>
+
+ <label for="mobile">Mobile Number:<small aria-hidden="true"></label></br>
+        <input id="mobile" name="mobile" type="text" inputmode="numeric" placeholder="10 digits" /></br><br>
+         
+       
+<script>
+ function validateform()
+ {
+
+var name=document.getElementById("username").value;
+ if(name==""){
+ alert("Please enter your full name.");
+ return false;
+}
+var name=document.getElementById("password").value;
+ if(name==""){
+ alert("Please enter password.");
+ return false;
+}   
+ alert("FORM SUBMITTED SUCCESSFULLY");
+ return true;
+
+
+}
+    
+            
+          
+</script>
+  
